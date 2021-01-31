@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        jcenter {
+            content {
+                // just allow to include kotlinx projects
+                // detekt needs 'kotlinx-html' for the html report
+                includeGroup "org.jetbrains.kotlinx"
+            }
+        }
+    }
+}
+
+plugins {
+    id 'kotlin'
+    id "io.gitlab.arturbosch.detekt" version "1.15.0"
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    detektPlugins project(path: ":detekt-extensions", configuration: 'default')
+}

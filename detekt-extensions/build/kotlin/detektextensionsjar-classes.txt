@@ -1,0 +1,1 @@
+C:\Users\pablo\development\AndroidDemo\detekt-extensions\build\classes\kotlin\main\com\glovoapp\courier\detekt\GlovoRuleProvider.class;C:\Users\pablo\development\AndroidDemo\detekt-extensions\build\classes\kotlin\main\com\glovoapp\courier\detekt\ModuleImportRule.class
